@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./stilus.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <title>Macskafélék</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nav">
+      <a class="navbar-brand" href="#">Macskafélék</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Cicák
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#gepard">Gepárd</a>
+              <a class="dropdown-item" href="#jaguar">Jaguár</a>
+              <a class="dropdown-item" href="#tigris">Tigris</a>
+              <a class="dropdown-item" href="#oroszlan">Oroszlán</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand" href="#szamit">Számítások</a>
+    </nav>
+    <a href="#nav" id="felfele">Felfelé</a>
+    <div class="container">
+      <div class="row" id="gepard">
+        <div class="col-sm-4">
+          <img
+            src="./kepek/gepard.jpg"
+            alt="gepárd"
+            class="w-100 img-thumbnail"
+          />
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+          <ul>
+            <li>
+              <span class="fajta">Fajta:</span>
+              <span class="fajtaNev">Gepárd</span>
+            </li>
+            <li>
+              <span class="fajta">Leírás:</span>
+              <div class="leiras">
+                A gepárd nagyon izmos, bár a teste karcsúnak és törékenynek
+                tűnik. Mellkasa domború, míg a hasa mélyen behúzott. Kis feje,
+                rövid orra és magasan ülő szemei, kis kerek fülei és a maximális
+                oxigénbevitelhez nagy orrlyukai vannak. A gepárd szőre sárgás
+                színű, fekete kerek pettyekkel, amely segíti az álcázásban. Az
+                orra két oldalán fekete '<i>könnycsepp</i>'-szerű minta húzódik
+                lefelé a szemétől a szája sarkáig. A felnőtt állatok súlya 21–72
+                kg között mozog, testhossza 110–150 cm, farokhossza 60–84 cm.
+              </div>
+            </li>
+            <li>
+              <span class="fajta">Maximális sebesség:</span>
+              <span id="gepardSebesseg">125</span> km/h
+            </li>
+            <li>
+              <span class="fajta">Átlagos tömeg:</span>
+              <span id="gepardTomeg">52</span> kg
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" id="jaguar">
+        <div class="col-sm-7">
+          <ul>
+            <li>
+              <span class="fajta">Fajta:</span>
+              <span class="fajtaNev">Jaguár</span>
+            </li>
+            <li>
+              <span class="fajta">Leírás:</span>
+              <div class="leiras">
+                Ez a nagymacska az egyetlen még élő Panthera nembeli állat az
+                amerikai szuperkontinensen. A DNS-vizsgálatok azt mutatják, hogy
+                az oroszlánnak, a tigrisnek, a jaguárnak, a leopárdnak, a
+                hópárducnak és a ködfoltos párducnak közös őse van; ez az
+                ősmacska körülbelül 6–10 millió évvel ezelőtt élt. Az eddig
+                felfedezett maradványok pedig azt mutatják, hogy a Panthera
+                macskanem csak 2–3,8 millió éve jelent meg. A törzsfejlődéses
+                (philogenesis) kutatások szerint a ködfoltos párduc (Neofelis
+                nebulosa) a bazálisfaj ebben az állatcsoportban; azaz meglehet,
+                hogy belőle fejlődtek ki a többi fajok. Hogy melyik a korábban
+                vagy újabban kifejlődött párducforma, ma még nem ismert.
+              </div>
+            </li>
+            <li>
+              <span class="fajta">Maximális sebesség:</span>
+              <span id="jaguarSebesseg">64</span> km/h
+            </li>
+            <li>
+              <span class="fajta">Átlagos tömeg:</span>
+              <span id="jaguarTomeg">76</span> kg
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <img
+            src="./kepek/jaguar.jpg"
+            alt="jaguár"
+            class="w-100 img-thumbnail"
+          />
+        </div>
+      </div>
+      <div class="row" id="tigris">
+        <div class="col-sm-4">
+          <img
+            src="./kepek/tigris.jpg"
+            alt="tigris"
+            class="w-100 img-thumbnail"
+          />
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+          <ul>
+            <li>
+              <span class="fajta">Fajta:</span>
+              <span class="fajtaNev">Tigris</span>
+            </li>
+            <li>
+              <span class="fajta">Leírás:</span>
+              <div class="leiras">
+                A tigris (Panthera tigris) a ragadozók rendjébe és a macskafélék
+                családjába tartozó faj. Valamennyi alfaja veszélyeztetett.
+                Teljes állománya száz év alatt 95%-kal csökkent. Leginkább
+                Indiában sikeres a faj megmentése. A tigris a legnagyobb ma élő
+                macskaféle, méretben csak a jégkorszaki amerikai oroszlán és a
+                smilodon múlta felül. A tigrisek méretei és egyéb jellemzői
+                alfajonként változóak. A vadon élő hím tigrisek (a kihalt
+                alfajokat nem beleszámítva) 100 és 306 kg közötti tömegűek,
+                hosszuk a farokkal együtt 220–330 cm (a farok hossza 60–110 cm).
+                Nemi kétalakúság figyelhető meg, a nőstény tigrisek jóval
+                kisebbek, 75–167 kg-ot érhetnek el, hosszuk 215–275 cm. A
+                legkisebb alfaj a szumátrai tigris, a legnagyobb a szibériai
+                tigris és a bengáli tigris.
+              </div>
+            </li>
+            <li>
+              <span class="fajta">Maximális sebesség:</span>
+              <span id="tigrisSebesseg">82</span> km/h
+            </li>
+            <li>
+              <span class="fajta">Átlagos tömeg:</span>
+              <span id="tigrisTomeg">220</span> kg
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" id="oroszlan">
+        <div class="col-sm-7">
+          <ul>
+            <li>
+              <span class="fajta">Fajta:</span>
+              <span class="fajtaNev">Oroszlán</span>
+            </li>
+            <li>
+              <span class="fajta">Leírás:</span>
+              <div class="leiras">
+                Az oroszlánok Fekete-Afrika legnagyobb részén megtalálhatók.
+                Főleg a fás területeken fordulnak elő, de megtalálhatók a
+                félsivatagos és bozótos helyeken is. Korábban az európaiak
+                mértéktelen vadászata miatt Afrika oroszlánállománya
+                megcsappant, és egyes alfajok, mint a fokföldi oroszlán, ki is
+                haltak. Ma a legtöbb oroszlán Közép-Afrika és Dél-Afrika
+                országaiban él (Botswana, Angola, Mozambik, Zambia, Kongói
+                Demokratikus Köztársaság). Ennél kisebb a kelet-afrikai és a
+                kevéssé ismert nyugat-afrikai oroszlánpopuláció. A
+                nyugat-afrikai oroszlán (Panthera leo senegalensis alfaj)
+                példányszáma 20 000 köré tehető. Az 1940-es évek közepén még 70
+                000 oroszlán élt a Földön.[
+              </div>
+            </li>
+            <li>
+              <span class="fajta">Maximális sebesség:</span>
+              <span id="oroszlanSebesseg">78</span> km/h
+            </li>
+            <li>
+              <span class="fajta">Átlagos tömeg:</span>
+              <span id="oroszlanTomeg">185</span> kg
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <img
+            src="./kepek/oroszlan.jpg"
+            alt="gepárd"
+            class="w-100 img-thumbnail"
+          />
+        </div>
+      </div>
+      <div class="row" id="szamit">
+        <div class="col-sm-12">
+          <form>
+            <select id="szamitas">
+              <option></option>
+              <option value="gyors">Leggyorsabb macskaféle</option>
+              <option value="nehez">Legnehezebb macskaféle</option>
+              <option value="energia">
+                Legtöbb energiát felhasználó macskaféle
+              </option>
+            </select>
+            <br />
+            <br />
+            <button onclick="kiertekel()">Kiértékelés</button>
+          </form>
+          <p style="margin-top: 20px">
+            Lekért információ: <span id="info"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./gyak.js"></script>
+  </body>
+</html>
